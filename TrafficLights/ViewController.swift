@@ -30,9 +30,13 @@ class ViewController: UIViewController {
         yellowLightView.alpha = lightIsOff
         greenLightView.alpha = lightIsOff
         
+    }
+    
+    override func viewWillLayoutSubviews() {
         redLightView.layer.cornerRadius = redLightView.frame.width / 2
         yellowLightView.layer.cornerRadius = yellowLightView.frame.width / 2
         greenLightView.layer.cornerRadius = greenLightView.frame.width / 2
+        
     }
 
     @IBAction func changeLightsButton() {

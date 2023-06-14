@@ -20,24 +20,21 @@
                                 <rect key="frame" x="136.66666666666666" y="89" width="119.99999999999997" height="120"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="b9w-jM-7fg"/>
-                                    <constraint firstAttribute="height" constant="120" id="yNP-gF-haP"/>
+                                    <constraint firstAttribute="width" secondItem="jdT-s5-uAl" secondAttribute="height" multiplier="1:1" id="J4w-xr-x3S"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khb-rG-Gsv">
                                 <rect key="frame" x="136.66666666666666" y="249" width="119.99999999999997" height="120"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="0sz-C7-IiN"/>
-                                    <constraint firstAttribute="width" constant="120" id="JMW-n5-PY1"/>
+                                    <constraint firstAttribute="width" secondItem="khb-rG-Gsv" secondAttribute="height" multiplier="1:1" id="nEh-bR-0Oh"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Utt-u7-xPa">
                                 <rect key="frame" x="136.66666666666666" y="409" width="119.99999999999997" height="120"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="2Vg-VU-vYJ"/>
-                                    <constraint firstAttribute="width" constant="120" id="xwy-og-zt6"/>
+                                    <constraint firstAttribute="width" secondItem="Utt-u7-xPa" secondAttribute="height" multiplier="1:1" id="nN9-hv-WKf"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0S-Tt-Cgk">
@@ -59,14 +56,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Utt-u7-xPa" firstAttribute="top" secondItem="khb-rG-Gsv" secondAttribute="bottom" constant="40" id="0nk-z3-lq4"/>
-                            <constraint firstItem="khb-rG-Gsv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="17u-Le-9zR"/>
-                            <constraint firstItem="jdT-s5-uAl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="87H-g5-euC"/>
-                            <constraint firstItem="Utt-u7-xPa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XQl-4W-mwi"/>
-                            <constraint firstItem="jdT-s5-uAl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Xjm-s8-7g3"/>
+                            <constraint firstItem="jdT-s5-uAl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5UD-sW-FdX"/>
+                            <constraint firstItem="khb-rG-Gsv" firstAttribute="top" secondItem="jdT-s5-uAl" secondAttribute="bottom" constant="40" id="6y8-Vs-HAv"/>
+                            <constraint firstItem="Utt-u7-xPa" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.140845" id="L4U-kC-Qyx"/>
+                            <constraint firstItem="jdT-s5-uAl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="STa-Pm-695"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P0S-Tt-Cgk" secondAttribute="bottom" constant="40" id="anj-Jy-mD9"/>
+                            <constraint firstItem="khb-rG-Gsv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aux-q2-wxd"/>
                             <constraint firstItem="P0S-Tt-Cgk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eGd-U3-SMZ"/>
-                            <constraint firstItem="khb-rG-Gsv" firstAttribute="top" secondItem="jdT-s5-uAl" secondAttribute="bottom" constant="40" id="xFk-8p-Eur"/>
+                            <constraint firstItem="Utt-u7-xPa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lix-yS-0PN"/>
+                            <constraint firstItem="Utt-u7-xPa" firstAttribute="top" secondItem="khb-rG-Gsv" secondAttribute="bottom" constant="40" id="lrC-EE-R56"/>
+                            <constraint firstItem="jdT-s5-uAl" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.140845" id="qgb-0a-FKw"/>
+                            <constraint firstItem="khb-rG-Gsv" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.140845" id="yvL-Ss-HYR"/>
                         </constraints>
                     </view>
                     <connections>
